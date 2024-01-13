@@ -7,7 +7,7 @@ import java.util.Random;
 /**
  * This Class handles the game
  */
-public class LetsRock implements ActionListener {
+public class TheGame implements ActionListener {
     JFrame jf;
     JPanel basePlate;
     JPanel title = new JPanel();
@@ -21,7 +21,7 @@ public class LetsRock implements ActionListener {
     /**
      * Constructor
      */
-    public LetsRock(){
+    public TheGame(){
         numbers = new int[4][4];
         fileGen();
         startUi();
